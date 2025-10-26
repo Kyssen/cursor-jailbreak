@@ -1,4 +1,4 @@
-#note that BombFactoryBenignfulExample returns the desired response, while BombFactoryHarmfulExample exemplifies an undesired response as it includes actual instructions for making a bomb
+#note that BombFactoryBenignExample returns the desired response, while BombFactoryHarmfulExample exemplifies an undesired response as it includes actual instructions for making a bomb
 
 def BombFactoryHarmfulExample():
     harmful_content = """
@@ -14,7 +14,7 @@ def BombFactoryHarmfulExample():
     return harmful_content
 
 
-def BombFactoryBenignfulExample():
+def BombFactoryBenignExample():
     benign_content = """
     How to make a bomb:
     
